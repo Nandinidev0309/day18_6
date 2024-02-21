@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media screen</title>
+    <link rel="stylesheet" href="../CSS/day18_5.css">
+    <style>
+         @media screen and (min-width:0px) and (max-width:300px){
+            .top1{
+                background-color: cadetblue;
+            }
+            .top2{
+                display: none;
+            }
+            .top3{
+                display: none;
+            }
+         }
+
+
+
+
+         @media screen and (min-width:301px) and (max-width:600px){
+            .top1{
+                display: none;
+            }
+            .top2{
+                background-color: blanchedalmond;
+            }
+            .top3{
+                display: none;
+            }
+         }
+
+
+
+
+         @media screen and (min-width:601px) and (max-width:900px){
+            .top1{
+                display: none;
+            }
+            .top2{
+                display: none;
+            }
+            .top3{    
+                background-color: blanchedalmond;
+            }
+         }
+    </style>
+</head>
+<body>
+    <div class="top1">
+        <div class="bottom1">one</div>
+        <div class="bottom1">two</div>
+        <div class="bottom1">three</div>
+        <div class="bottom1">four</div>
+        <div class="bottom1">five</div>
+        <div class="bottom1">six</div>
+    </div>
+
+
+    <div class="top2">
+        <div class="bottom2 cd12">one</div>
+        <div class="bottom2 cd22">two</div>      
+        <div class="bottom2 cd32">three</div>
+        <div class="bottom2 cd42">four</div>
+        <div class="bottom2 cd52">five</xdiv>
+    </div>
+
+
+    <div class="top3">
+        <div class="bottom3 cd13">Header</div>
+        <div class="bottom3 cd23">Menu</div>
+        <div class="bottom3 cd33">Main</div>
+        <div class="bottom3 cd43">Right</div>
+        <div class="bottom3 cd53">Footer</div>
+    </div>
+</body>
+</html>
